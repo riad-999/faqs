@@ -21,9 +21,13 @@
 }
 body
 {
-    background-color:var(--soft-blue);
+    /* background-color:var(--soft-blue); */
+    /* background-image:linear-gradient(
+        var(--soft-violet),var(--soft-blue)); */
     color:var(--very-dark-grayish-blue);
     font-family: 'Kumbh Sans', sans-serif;
+    height: auto;
+    /* background-repeat: no-repeat; */
 }
 button
 {
