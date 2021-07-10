@@ -1,4 +1,9 @@
 let QAs = document.querySelectorAll(".qa");
+// let full_height = document.getElementById("main-content").
+// offsetHeight;
+// console.log(full_height);
+// document.body
+// .style.height = full_height + "px";
 QAs.forEach(function(item){
     item.classList.add("no-height");
     // item.querySelector(".answer").

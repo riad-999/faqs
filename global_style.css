@@ -11,8 +11,7 @@
     --light-grayish-blue:hsl(240, 5%, 91%);
 
     font-size:16px;
-    background-image:linear-gradient(var(--soft-violet),
-    var(--soft-blue));
+    
 }
 *,*::before,*::after
 {
@@ -22,6 +21,7 @@
 }
 body
 {
+    background-color:var(--soft-blue);
     color:var(--very-dark-grayish-blue);
     font-family: 'Kumbh Sans', sans-serif;
 }
