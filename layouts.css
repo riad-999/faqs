@@ -1,0 +1,30 @@
+#main-content
+{
+    padding:4rem 0;
+    margin-top: 5rem;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin:0 auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+.mobile-fig
+{
+    position: relative;
+    flex-basis: 80%;
+    margin:0 auto;
+}
+.desktop-fig
+{
+ display:none;   
+}
+.faqs-container
+{
+    padding:0 2rem 2rem;
+}
+
+

@@ -1,0 +1,168 @@
+#bg-pattern-mobile,
+#bg-pattern-desktop
+{
+    position: absolute;
+    top:0;
+}
+img{
+    display:block;
+    width:100%;
+}
+#woman-mobile
+{
+    transform: translateY(-55%);
+}
+#bg-pattern-mobile
+{
+    position:absolute;
+    top:0;
+}
+.header
+{
+    color:var(--very-dark-blue);
+    font-size:2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.qa
+{
+    position: relative;
+    padding-right:2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px var(--light-grayish-blue);
+}
+.answer
+{
+    overflow: hidden;
+    transition: height .5s;
+}
+.question
+{
+    padding-bottom: .5rem;
+    cursor:pointer;
+    transition: color .2s;
+}
+
+.question:hover
+{
+    color:var(--soft-red);
+}
+.btn
+{
+    position:absolute;
+    top:0;
+    right:0rem;
+    font-size: 1.2rem;
+    padding:0 1rem;
+    color:var(--soft-red);
+    transform:rotateZ(0);
+    transition: transform .3s;
+}
+
+
+
+
+
+
+
+
+
+
+/* js classes  */
+.no-disp
+{
+    display:none;
+}
+.no-disp{
+    display:block;
+}
+.dark-blue
+{
+    color:var(--very-dark-blue);
+    font-weight: 700;
+}
+.height-transition
+{
+    transition: height .5s;
+}
+.no-height .answer
+{
+    height: 0;
+}
+.rotate
+{
+    transform: rotateZ(180deg);
+}
+
+
+
+
+@media screen and 
+(min-width:800px)
+{
+    .card
+    {
+        flex-direction: row;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        max-width:800px;
+        /* overflow: hidden; */
+    }
+    .mobile-fig
+    {
+        display:none;
+    }
+    .desktop-fig
+    {
+        flex-basis: 30%;
+        display:block;
+    }
+    #bg-pattern-desktop
+    {
+        position: absolute;
+    }
+    #woman-desktop
+    {
+        transform:translateX(-10%);
+        z-index: 200;
+    }
+    .desktop-fig
+    {
+        position: relative !important;
+        height: 100%;
+    }
+    .qa 
+    {
+        padding-right: 3rem;
+    }
+    #woman-box
+    {
+        z-index: 1;
+        position: absolute;
+        width:100px;
+        top:50%;
+        left:0;
+        transform: translate(-40%,-30%);
+    }
+    .faqs-container
+    {
+        flex-grow: 1.1;
+        flex-basis: 50%;
+        padding-top:2rem;
+    }
+    #bg-pattern-desktop
+    {
+        left:0;
+        transform: translateX(-10%);
+        z-index: 1;
+    }
+    .header
+    {
+        text-align: left;
+    }
+    
+   
+}
